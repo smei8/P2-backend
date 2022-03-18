@@ -1,7 +1,5 @@
 create database ers;
 
-\c ers;
-
 CREATE TABLE roles (
     role_id serial PRIMARY KEY,
     role_name varchar(255) UNIQUE NOT NULL

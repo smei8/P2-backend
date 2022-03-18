@@ -22,7 +22,7 @@ public class DBUtil {
 //		String password = "Aug211997!";
 		
 		//new connection - aws
-		String connectionURL = "jdbc:postgresql://ip-172-31-86-161.ec2.internal:8888/ers";
+		String connectionURL = "jdbc:postgresql://ip-172-31-86-161.ec2.internal:8888/postgres";
 		
 		String userName = "postgres";
 		String password = "mysecretpassword";
